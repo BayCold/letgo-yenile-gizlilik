@@ -4,7 +4,7 @@
 
 Bu uzantı, letgo.com üzerinde süresi dolmuş ilanları toplu olarak yeniden yayınlamanıza yardımcı olan bir Chrome uzantısıdır. letgo veya OfferUp ile resmi bir bağlantısı yoktur; bağımsız bir geliştirici tarafından geliştirilmiştir.
 
-**Veri sorumlusu / geliştirici:** AD SOYAD — İletişim: DESTEK_E_POSTANIZ
+**Geliştirici:** Burak Yavaş
 
 ## 1. Yalnızca tarayıcınızda saklanan veriler (sunucuya gönderilmez)
 - Yenileme sırasının ilerleme durumu
