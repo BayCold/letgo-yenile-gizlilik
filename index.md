@@ -1,46 +1,117 @@
-# Gizlilik Politikası — Toplu İlan Yenileme (letgo için)
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gizlilik Politikası — Letgo Toplu İlan Yenileme</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1d2433; --muted:#667085; --line:#e4e7ec; --accent:#e5352b; --card:#f7f8fa; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#14171f; --fg:#e8eaf0; --muted:#98a2b3; --line:#2a2f3b; --accent:#ff6b61; --card:#1b1f29; } }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
+  h1 { font-size:28px; margin:0 0 6px; }
+  h2 { font-size:19px; margin:36px 0 8px; padding-top:8px; border-top:1px solid var(--line); }
+  p, li { margin:8px 0; }
+  ul { padding-left:22px; }
+  .meta { color:var(--muted); font-size:14px; }
+  table { width:100%; border-collapse:collapse; margin:12px 0; font-size:15px; display:block; overflow-x:auto; }
+  th, td { text-align:left; padding:9px 11px; border:1px solid var(--line); vertical-align:top; }
+  th { background:var(--card); }
+  .note { background:var(--card); border-left:4px solid var(--accent); padding:10px 14px; border-radius:6px; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
 
-*Son güncelleme: 2 Ekim 2026*
+<h1>Gizlilik Politikası</h1>
+<p class="meta"><b>Letgo Toplu İlan Yenileme</b> (Chrome eklentisi) · Yürürlük tarihi: 28 Ekim 2026 · Eklenti sürümü: 1.22.30</p>
 
-Bu uzantı, letgo.com üzerinde süresi dolmuş ilanları toplu olarak yeniden yayınlamanıza yardımcı olan bir Chrome uzantısıdır. letgo veya OfferUp ile resmi bir bağlantısı yoktur; bağımsız bir geliştirici tarafından geliştirilmiştir.
+<p>Bu politika, Letgo Toplu İlan Yenileme eklentisini ("Eklenti") kullandığınızda hangi kişisel verilerinizin işlendiğini, bu verilerin neden ve nasıl işlendiğini ve haklarınızı açıklar. Eklentiyi kullanmaya başlamadan önce bu metni okumanızı rica ederiz.</p>
 
-**Geliştirici:** Burak Yavaş
+<h2>1. Veri sorumlusu</h2>
+<p>Veri sorumlusu: <b>Burak Yavaş</b> (Eklenti geliştiricisi).<br>
+İletişim: <b>[E-POSTA ADRESİNİZİ YAZIN]</b></p>
+<p>Eklenti, letgo.com ile veya Letgo'yu işleten şirketle bağlantılı değildir; bağımsız bir üçüncü taraf aracıdır.</p>
 
-## 1. Yalnızca tarayıcınızda saklanan veriler (sunucuya gönderilmez)
-- Yenileme sırasının ilerleme durumu
-- "İlanlarım" sayfasından taranan ilanların adı, görseli, fiyatı ve bağlantısı; hariç tuttuğunuz ilanların listesi
-- Ayarlarınız (ör. mola tercihi) ve yazıp henüz göndermediğiniz geri bildirim taslağı
-- Kullanım sayacı, lisans durumu ve uzantı tarafından üretilen rastgele cihaz kimliği
+<h2>2. Eklenti ne yapar?</h2>
+<p>Eklenti, Letgo hesabınızda süresi dolmuş ilanlarınızı tarar ve sizin başlattığınız toplu yenileme işlemini, tarayıcınızda oturumunuz açıkken, hesabınız üzerinden adımlarla gerçekleştirir. Ücretsiz kullanım hakkı aylık olarak sınırlıdır; bu hakkın takibi için sunucumuzla iletişim kurar.</p>
 
-letgo.com'daki ilan içerikleriniz, mesajlarınız, şifreniz ve gezinme geçmişiniz toplanmaz, kaydedilmez ve hiçbir sunucuya gönderilmez.
+<h2>3. İşlediğimiz veriler</h2>
+<table>
+  <tr><th>Veri</th><th>Nereden</th><th>Nerede tutulur</th></tr>
+  <tr><td><b>Ad soyad ve telefon numarası</b> (Letgo hesabınızdaki "İlan Bilgileri" sayfasında görünen)</td><td>Letgo sayfası</td><td>Sunucumuz (Google E-Tablolar)</td></tr>
+  <tr><td><b>Telefon numarasından üretilen tek yönlü özet</b> (hesap eşleştirme için)</td><td>Cihazınızda üretilir</td><td>Sunucumuz; ayrıca gizli bir anahtarla yeniden özetlenerek saklanır</td></tr>
+  <tr><td><b>Cihaz kimliği</b> (eklenti kurulumuna ait rastgele kod)</td><td>Eklenti</td><td>Sunucumuz ve tarayıcınız</td></tr>
+  <tr><td><b>Chrome profil e-postasının tek yönlü özeti</b> (e-posta adresiniz gönderilmez)</td><td>Chrome profiliniz</td><td>Sunucumuz</td></tr>
+  <tr><td><b>Kullanım bilgileri:</b> yenilenen ve taranan ilan sayıları, kullanım zamanları, aylık hak kullanımı, Eklenti sürümü, "Uyguna Bul" eklentisinin yüklü/etkin olup olmadığı bilgisi, kural ihlali kayıtları ve itiraz mesajları</td><td>Eklenti</td><td>Sunucumuz</td></tr>
+  <tr><td><b>Geri bildirim mesajı</b> ve (isteğe bağlı) yazdığınız iletişim bilgisi</td><td>Siz, "Gönder"e bastığınızda</td><td>Sunucumuz</td></tr>
+  <tr><td><b>Tarama listesi:</b> ilan başlığı, görsel adresi, fiyat, bağlantı ve hariç tuttuğunuz ilanlar; ayarlarınız</td><td>Letgo sayfası / siz</td><td><b>Yalnızca tarayıcınızda.</b> Sunucuya gönderilmez.</td></tr>
+</table>
+<p><b>Toplamadığımız veriler:</b> Letgo şifreniz, ödeme veya kart bilgileriniz, mesajlarınız, ilan açıklamaları ve görselleri, tarama geçmişiniz, konumunuz. Eklenti reklam göstermez ve davranışsal profilleme yapmaz.</p>
 
-## 2. Sunucuya gönderilen veriler
-Uzantı, Google Apps Script üzerinde çalışan lisans sunucusuyla iletişim kurar. Gönderilen veriler yalnızca aşağıdaki işlemler sırasında iletilir:
+<h2>4. İşleme amaçları</h2>
+<ul>
+  <li>İlan yenileme işlemlerini hesabınız üzerinden gerçekleştirmek,</li>
+  <li>Ücretsiz aylık kullanım hakkınızı takip etmek ve hakkın, eklentiyi silip yeniden kurma gibi yollarla yanlışlıkla ya da kötüye kullanım amacıyla sıfırlanmasını önlemek (aynı kullanıcıyı tanıyabilmek),</li>
+  <li>Kullanım kurallarının ihlalini tespit etmek, kısıtlama ve itiraz süreçlerini yürütmek,</li>
+  <li>Destek taleplerinize ve geri bildirimlerinize yanıt vermek, hataları gidermek,</li>
+  <li>Toplu ve anonim kullanım istatistikleri üretmek.</li>
+</ul>
+<p>Verileriniz bu amaçlar dışında kullanılmaz, satılmaz ve reklam amacıyla paylaşılmaz.</p>
 
-- **Ücretsiz aylık hak ve Pro doğrulaması:** Her ilan yenilemeden önce ve uzantı penceresi açıldığında; rastgele cihaz kimliği, (varsa) lisans anahtarı ve (Chrome'a giriş yaptıysanız) Chrome profil e-postanızın tek yönlü kriptografik özeti (SHA-256; e-posta adresinin kendisi gönderilmez ve özetten geri elde edilemez). Amaç: aylık ücretsiz hakkın ve lisansın doğrulanması, bir anahtarın birden fazla cihazda kullanılmasının engellenmesi.
-- **Pro lisans anahtarı etkinleştirme:** Lisans anahtarı ve cihaz kimliği. Sunucu size 6 haneli bir müşteri kimliği atar.
-- **Pro sipariş verdiğinizde:** Seçtiğiniz paket, ad soyad, e-posta, telefon ve cihaz kimliği. Amaç: siparişi eşleştirmek, ödemeyi onaylamak, lisans anahtarını size iletmek ve destek sağlamak.
-- **Geri bildirim gönderdiğinizde:** Mesajınız, türü, (isteğe bağlı) iletişim bilginiz, plan türü, uzantı sürümü ve cihaz kimliği. Yalnızca "Gönder"e bastığınızda iletilir.
+<h2>5. Hukuki sebepler</h2>
+<p>6698 sayılı KVKK kapsamında verileriniz; eklentiyi kullanmaya başlarken verdiğiniz <b>onayınıza</b> (“Kullanmaya Başla”), hizmetin sunulması için gereken <b>sözleşmenin kurulması ve ifasına</b> ve kullanım hakkının korunması ve kötüye kullanımın önlenmesi konusundaki <b>meşru menfaatimize</b> dayanılarak işlenir. AB/AEA'daki kullanıcılar için GDPR madde 6/1 (a), (b) ve (f) bentleri geçerlidir.</p>
 
-Bu veriler Google Sheets tablosunda saklanır; yalnızca geliştirici erişebilir. Veriler reklam, profilleme veya analiz amacıyla kullanılmaz; satılmaz ve üçüncü taraflarla paylaşılmaz (altyapı sağlayıcısı Google hariç).
+<h2>6. Verilerin paylaşımı ve aktarımı</h2>
+<ul>
+  <li><b>Google LLC:</b> Sunucu tarafı Google Apps Script ve Google E-Tablolar üzerinde çalışır. Verileriniz Google altyapısında saklanır ve bu nedenle yurt dışına aktarılabilir. Aktarım, açık onayınıza dayanır.</li>
+  <li><b>Letgo:</b> Eklenti, tarayıcınızda oturumunuz açıkken letgo.com ile doğrudan iletişim kurar; bu iletişime Letgo'nun kendi koşulları ve gizlilik politikası uygulanır.</li>
+  <li><b>"Uyguna Bul" eklentisi:</b> Eklenti, bu eklentinin yüklü ve etkin olup olmadığını tarayıcı üzerinden yerel olarak kontrol eder. Kişisel verileriniz bu eklentiyle paylaşılmaz.</li>
+  <li>Yasal yükümlülük ve yetkili makam talepleri dışında verileriniz üçüncü kişilerle paylaşılmaz.</li>
+</ul>
 
-## 3. İstenen izinler ve nedenleri
-- **storage:** Ayarların, ilerlemenin ve lisans durumunun saklanması
-- **scripting / letgo.com erişimi:** İlan tarama ve yenileme adımlarının letgo.com sayfasında yürütülmesi
-- **identity.email:** Ücretsiz hakkın yeniden kurulumla sıfırlanmaması için e-postanın tek yönlü özetinin hesaplanması
-- **script.google.com erişimi:** Lisans sunucusuyla iletişim
+<h2>7. Saklama süresi</h2>
+<p>Verileriniz, hak takibi ve kötüye kullanım önleme amacının gerektirdiği süre boyunca ve en fazla <b>[SÜREYİ YAZIN, ör. son kullanımdan itibaren 24 ay]</b> saklanır; süre sonunda silinir veya anonim hale getirilir. Geri bildirim mesajları <b>[SÜREYİ YAZIN]</b> süreyle saklanır. Tarayıcınızdaki yerel veriler, eklentiyi kaldırdığınızda silinir.</p>
 
-## 4. Saklama süresi ve silme
-Sipariş, lisans ve geri bildirim kayıtları, hizmetin sunulması ve olası destek talepleri için gerektiği süre boyunca saklanır. Silinmesini talep etmek için DESTEK_E_POSTANIZ adresine müşteri kimliğinizle yazabilirsiniz. Tarayıcıda saklanan veriler uzantıyı kaldırdığınızda silinir.
+<h2>8. Güvenlik</h2>
+<p>Veriler HTTPS üzerinden iletilir. Ad ve telefon gibi kişisel veriler URL'de değil, istek gövdesinde gönderilir. Telefon numarasından üretilen özet, sunucuda ayrıca gizli bir anahtarla yeniden işlenir. Sunucu verilerine erişim yalnızca veri sorumlusuyla sınırlıdır. Buna rağmen hiçbir sistemin mutlak güvenliği garanti edilemez.</p>
 
-## 5. Haklarınız (KVKK ve ilgili mevzuat)
-Kişisel verilerinizin işlenip işlenmediğini öğrenme, düzeltme, silme ve itiraz hakkına sahipsiniz. Taleplerinizi DESTEK_E_POSTANIZ adresine iletebilirsiniz.
+<h2>9. Haklarınız</h2>
+<p>KVKK madde 11 ve GDPR kapsamında; verilerinizin işlenip işlenmediğini öğrenme, bilgi talep etme, düzeltme, silme, işlemeye itiraz etme, veri taşınabilirliği ve onayınızı geri çekme haklarına sahipsiniz. Taleplerinizi <b>[E-POSTA ADRESİNİZİ YAZIN]</b> adresine iletebilirsiniz; en geç 30 gün içinde yanıtlanır. Silme talebinde, sunucu kaydınızı bulabilmemiz için Eklenti ayarlarında görünen müşteri kimliğinizi veya Letgo hesabınızdaki telefon numaranızı bildirmeniz gerekebilir.</p>
+<p><b>Onayı geri çekme:</b> Eklentiyi Chrome'dan kaldırarak yeni veri gönderilmesini durdurabilirsiniz. Sunucudaki mevcut kayıtlarınızın silinmesi için yukarıdaki adrese başvurmanız gerekir. Şikâyet hakkınız, Kişisel Verileri Koruma Kurulu'na (KVKK) başvurma hakkınızı da kapsar.</p>
 
-## 6. Çocuklar
-Uzantı 18 yaşın altındaki kişilere yönelik değildir.
+<h2>10. İstenen tarayıcı izinleri</h2>
+<table>
+  <tr><th>İzin</th><th>Neden gerekli?</th></tr>
+  <tr><td>letgo.com sitesi erişimi</td><td>İlanlarınızı taramak ve yenileme adımlarını yürütmek</td></tr>
+  <tr><td>script.google.com / script.googleusercontent.com</td><td>Hak takibi sunucumuzla iletişim</td></tr>
+  <tr><td>storage</td><td>Ayarlarınızı, tarama listesini ve onay durumunu tarayıcınızda tutmak</td></tr>
+  <tr><td>tabs, scripting</td><td>Letgo sekmesini bulmak, açmak ve yenileme akışını yürütmek</td></tr>
+  <tr><td>identity, identity.email</td><td>Chrome profil e-postasının tek yönlü özetini üretmek (e-posta gönderilmez)</td></tr>
+  <tr><td>management</td><td>"Uyguna Bul" eklentisinin yüklü ve etkin olduğunu doğrulamak</td></tr>
+  <tr><td>offscreen</td><td>Arka planda tarama sayfalarını ayrıştırmak</td></tr>
+  <tr><td>alarms</td><td>Durum bilgisini arka planda güncel tutmak</td></tr>
+</table>
 
-## 7. Değişiklikler
-Politika güncellenirse güncel sürüm bu sayfada yayınlanır; üstteki tarih değiştirilir.
+<h2>11. Google "Sınırlı Kullanım" beyanı</h2>
+<p>Eklentinin Google API'lerinden aldığı bilgilerin kullanımı, Chrome Web Store Kullanıcı Verisi Politikası'na ve Sınırlı Kullanım gerekliliklerine uygundur. Veriler yalnızca Eklentinin kullanıcıya dönük özelliklerini sunmak için kullanılır; reklam amacıyla kullanılmaz, satılmaz veya insanlar tarafından okunmaz (güvenlik, hukuki gereklilik veya sizin açık talebiniz hariç).</p>
 
-## 8. İletişim
-DESTEK_E_POSTANIZ
+<h2>12. Çerezler</h2>
+<p>Eklenti çerez kullanmaz. Ayarlar ve geçici durum bilgileri tarayıcının eklenti depolama alanında ve letgo.com sayfasının yerel depolamasında tutulur.</p>
+
+<h2>13. Çocuklar</h2>
+<p>Eklenti 18 yaşından küçüklere yönelik değildir ve bilerek 18 yaşından küçüklerin verilerini toplamaz.</p>
+
+<h2>14. Kullanıcı sorumluluğu</h2>
+<p>Eklenti, ilan yenileme işlemlerini sizin hesabınızda ve sizin başlatmanızla gerçekleştirir. Bu işlemlerin Letgo'nun kullanım koşullarına uygunluğundan ve sonuçlarından siz sorumlusunuz. Lütfen işlem sonuçlarını Letgo hesabınızdan kontrol edin.</p>
+
+<h2>15. Değişiklikler</h2>
+<p>Bu politikayı güncelleyebiliriz. Önemli değişikliklerde Eklenti içinde yeniden onayınız istenebilir. Güncel metin her zaman bu sayfada yayımlanır; sayfanın başındaki tarih son güncellemeyi gösterir.</p>
+
+<h2>16. İletişim</h2>
+<p>Sorularınız ve talepleriniz için: <b>[E-POSTA ADRESİNİZİ YAZIN]</b></p>
+
+</main>
+</body>
+</html>
