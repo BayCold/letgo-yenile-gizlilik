@@ -3,23 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gizlilik Politikası — Letgo Toplu İlan Yenileme</title>
-<style>
-  :root { --bg:#ffffff; --fg:#1d2433; --muted:#667085; --line:#e4e7ec; --accent:#e5352b; --card:#f7f8fa; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#14171f; --fg:#e8eaf0; --muted:#98a2b3; --line:#2a2f3b; --accent:#ff6b61; --card:#1b1f29; } }
-  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; }
-  main { max-width:760px; margin:0 auto; padding:40px 20px 80px; }
-  h1 { font-size:28px; margin:0 0 6px; }
-  h2 { font-size:19px; margin:36px 0 8px; padding-top:8px; border-top:1px solid var(--line); }
-  p, li { margin:8px 0; }
-  ul { padding-left:22px; }
-  .meta { color:var(--muted); font-size:14px; }
-  table { width:100%; border-collapse:collapse; margin:12px 0; font-size:15px; display:block; overflow-x:auto; }
-  th, td { text-align:left; padding:9px 11px; border:1px solid var(--line); vertical-align:top; }
-  th { background:var(--card); }
-  .note { background:var(--card); border-left:4px solid var(--accent); padding:10px 14px; border-radius:6px; }
-  a { color:var(--accent); }
-</style>
+
 </head>
 <body>
 <main>
